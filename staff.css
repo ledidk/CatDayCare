@@ -1,0 +1,169 @@
+/* General styles */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+ }
+ 
+  /* contents styles */
+  .content{
+   margin-left: 10px;
+   margin-top: -20px;
+
+  }
+/* Header styles */
+header {
+  text-align: center;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  max-height: 150px; /* Adjust the max-height as needed */
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+nav, footer, nav a, footer a {
+  background-color: #133854;
+  color: white;
+  font-size: 20pt;
+}
+img.rightfloater {
+  float: right;
+  padding: 20px 20px 0px 0px;
+}
+
+img.rightfloater2 {
+  float: right;
+  padding: 20px 20px 0px 0px;
+}
+nav {
+  text-align: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  font-size: 20pt;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #0D2840;
+}
+
+ /* Header styles */
+ h1 {
+   color: #133854;
+ }
+ 
+ /* Content section styles */
+ section {
+   font-size: 16px;
+   margin-bottom: 40px;
+ }
+ 
+ section h1 {
+   font-size: 24px;
+ }
+ 
+ section p {
+   line-height: 1.6;
+ }
+ 
+ /* Staff images */
+ img.staff1 {
+   float: right;
+   padding: 20px;
+   max-width: 300px;
+   margin-top: -20px;
+ }
+ 
+ img.staff2 {
+   float: left;
+   padding: 20px;
+   max-width: 300px;
+   margin-top: -15px;
+ }
+
+ img.staff3 {
+   float: right;
+   padding: 20px;
+   max-width: 300px;
+   margin-top: -50px;
+ }
+ 
+ /* Footer styles */
+ footer {
+   background-color: #133854;
+   color: white;
+   font-size: 20px;
+   text-align: right;
+   padding: 20px;
+   margin-top: 100px;
+ }
+ 
+ footer a {
+   color: white;
+   text-decoration: none;
+ }
+ 
+ footer a:hover {
+   text-decoration: underline;
+ }
+ 
+ footer img {
+   height: 100px;
+   padding-right: 10px;
+   float: left;
+ }
+ 
+ address {
+   font-style: normal;
+   text-align: right;
+   margin-bottom: 10px;
+ }
+ 
+ /* Clearfix for floating elements */
+ .clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ /* Media queries for responsiveness */
+ @media screen and (max-width: 768px) {
+   img.staff1,
+   img.staff2{
+     float: none;
+     display: block;
+     margin: 0 auto;
+     max-width: 100%;
+   }
+   p, h1{
+      margin-left: 10px;
+   }
+   img.staff3{
+      float: none;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      margin-top: -10px;
+    }
+ 
+   section img {
+     height: auto;
+     max-width: 100%;
+   }
+ 
+   footer img {
+     float: none;
+   }
+ }
+ 
+ 

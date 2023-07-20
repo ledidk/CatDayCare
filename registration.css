@@ -1,0 +1,152 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  /* Header styles */
+header {
+  text-align: center;
+  padding: 10px;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container img {
+  max-height: 150px; /* Adjust the max-height as needed */
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+img.rightfloater {
+  float: right;
+  padding: 20px 20px 0px 0px;
+}
+nav, footer, nav a, footer a {
+  background-color: #133854;
+  color: white;
+  font-size: 20pt;
+}
+
+img.rightfloater2 {
+  float: right;
+  padding: 20px 20px 0px 0px;
+}
+
+  
+  /* Contents styles */
+  .content {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  nav {
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    font-size: 20pt;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #0D2840;
+}
+
+  h1 {
+    text-align: center;
+  }
+  
+  section {
+    font-size: 16pt;
+    margin-bottom: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  td {
+    padding: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  /* Improved layout for larger screens */
+  @media screen and (min-width: 768px) {
+    form {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    label {
+      grid-column: 1;
+    }
+  
+    input {
+      grid-column: 2;
+    }
+  
+    .button {
+      grid-column: 2;
+    }
+  }
+  
+  button {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition */
+  }
+  
+  /* Button hover effect */
+  button:hover {
+    background-color: #333; /* Change background color on hover */
+  }
+  
+  .contactus {
+    text-align: center;
+  }
+  
+  /* Footer styles */
+  footer img {
+    height: 100px;
+    padding-right: 10px;
+    float: left;
+  }
+  
+  footer {
+    background-color: #133854;
+    color: white;
+    font-size: 20pt;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  address {
+    font-style: normal;
+    text-align: right;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  

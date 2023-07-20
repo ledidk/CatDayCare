@@ -1,0 +1,76 @@
+/* Contents styles */
+.content {
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav, footer, nav a, footer a {
+    background-color: #133854;
+    color: white;
+    font-size: 20pt;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+}
+
+section {
+    font-size: 16pt;
+}
+
+section img {
+    height: 200px;
+}
+
+footer {
+    text-align: right;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+address {
+    font-style: normal;
+    text-align: right;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+footer img {
+    height: 100px;
+    padding-right: 10px;
+    float: left;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container img {
+    max-height: 150px; /* Adjust the max-height as needed */
+    margin: 0 10px; /* Adjust the margin as needed */
+}
+
+img.rightfloater {
+    float: right;
+    padding: 20px 20px 0px 0px;
+}
+
+img.rightfloater2 {
+    float: right;
+    padding: 20px 20px 0px 0px;
+}
+
+/* Rest of your styles */
